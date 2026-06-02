@@ -8,7 +8,7 @@
   justify-content: space-between; /* ロゴとメニューを両端に広げる */
   align-items: center;           /* 上下の中央に揃える */
   padding: 1rem 2rem;
-  background-color: #333;        /* 背景は濃いグレー */
+  background-color: #7d2a38;        /* 背景はテーマカラー */
   color: #fff;                   /* 文字は白 */
 }
 
@@ -31,7 +31,7 @@
 .navbar-menu a {
   color: #fff;
   text-decoration: none;         /* 下線を消す */
-  transition: color 0.3s;
+  transition: color 0.25s;
 }
 
 /* マウスを乗せたとき（ホバー）のエフェクト */
