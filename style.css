@@ -1,4 +1,47 @@
 /* --------------------
+        Navbar
+-------------------- */
+
+/* ナビゲーションバー全体のスタイル */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* ロゴとメニューを両端に広げる */
+  align-items: center;           /* 上下の中央に揃える */
+  padding: 1rem 2rem;
+  background-color: #333;        /* 背景は濃いグレー */
+  color: #fff;                   /* 文字は白 */
+}
+
+/* ロゴのスタイル */
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* メニュー全体のスタイル */
+.navbar-menu {
+  display: flex;                 /* メニュー項目を横並びにする */
+  list-style: none;              /* 中黒ポチ（・）を消す */
+  gap: 1.5rem;                   /* 項目ごとの間隔をあける */
+  margin: 0;
+  padding: 0;
+}
+
+/* リンクのスタイル */
+.navbar-menu a {
+  color: #fff;
+  text-decoration: none;         /* 下線を消す */
+  transition: color 0.3s;
+}
+
+/* マウスを乗せたとき（ホバー）のエフェクト */
+.navbar-menu a:hover {
+  color: var(--theme-color);    /* 前に作ったテーマカラーに変える */
+}
+
+
+
+/* --------------------
         アイコン
 -------------------- */
 
@@ -35,12 +78,12 @@ body {
         見出し
 -------------------- */
 
-h1, h2 h3, {
+h1, h2 h3 {
   color: var(--theme-color);
   border-bottom: dotted 0.1em var(--theme-color);
 }
 
-h3, {
+h3 {
   color: var(--theme-color);
   border-bottom: dotted 0.2em var(--theme-color);
 }
