@@ -82,6 +82,6 @@ th, td {
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: +1;       /* 一番奥に配置 */
+  z-index: 9999;       /* 一番奥に配置 */
   pointer-events: none; /* キャンバスの下にあるボタン等をクリックできるようにする */
 }
