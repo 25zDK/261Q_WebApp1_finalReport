@@ -3,18 +3,18 @@ let y = 0;
 let easing = 0.25;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  canvas.id('p5-canvas');
+  let cnv = createCanvas(windowWidth, windowHeight);
+  cnv.id('p5-canvas');
 }
 
 function draw() {
-  background(241);
+  clear();
   
   x += (mouseX - x) * easing;
   y += (mouseY - y) * easing;
   
   noStroke();
-  fill(232,153,104);
+  fill(232, 153, 104);
   circle(x, y, 16);
 }
 
