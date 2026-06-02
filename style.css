@@ -35,10 +35,16 @@ body {
         見出し
 -------------------- */
 
-h1, h2, h3 {
+h1, h2, {
   color: var(--theme-color);
   border-bottom: dotted 0.1em var(--theme-color);
 }
+
+h3, {
+  color: var(--theme-color);
+  border-bottom: dotted 0.2em var(--theme-color);
+}
+        
 
 /* --------------------
         リンク
