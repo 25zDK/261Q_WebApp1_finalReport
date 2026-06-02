@@ -16,8 +16,8 @@ html, body {
 }
 
 body {
-  margin: 0;
-  padding: 30px;
+  margin: 15;
+  padding: 15px;
   color: #333;
 }
 
@@ -27,7 +27,7 @@ body {
 
 h1, h2, h3 {
   color: var(--theme-color);
-  border-bottom: dashed 0.1em var(--theme-color);
+  border-bottom: dotted 0.1em var(--theme-color);
 }
 
 /* --------------------
@@ -62,17 +62,17 @@ table {
   min-width: 70%;
 }
 tr {
-  background-color: #fff;
+  background-color: #f1f1f1;
 }
 tr:nth-child(2n) {
-  background-color: #f9f9f9;
+  background-color: #fff;
 }
 th {
   background: var(--theme-color);
   color: #fff;
 }
 th, td {
-  border: solid 1px #f0f0f0;
+  border: solid 1px #f1f1f1;
   padding: 0.5rem;
 }
 
