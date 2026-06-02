@@ -14,8 +14,8 @@ function draw() {
   y += (mouseY - y) * easing;
   
   noStroke();
-  fill(232, 153, 104);
-  circle(x, y, 16);
+  fill(125,42,56);
+  circle(x, y, 8);
 }
 
 function windowResized() {
