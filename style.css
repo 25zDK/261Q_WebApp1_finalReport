@@ -10,6 +10,7 @@
   padding: 1rem 2rem;
   background-color: #7d2a38;        /* 背景はテーマカラー */
   color: #fff;                   /* 文字は白 */
+  z-index: 9999;                /* 最も手前のレイヤーに配置 */
 }
 
 /* ロゴのスタイル */
@@ -131,7 +132,7 @@ th {
   color: #fff;
 }
 th, td {
-  border: solid 1px #f1f1f1;
+  border: solid 1px #fff;
   padding: 0.5rem;
 }
 
@@ -141,6 +142,6 @@ th, td {
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 9999;       /* 一番奥に配置 */
+  z-index: 9998;       /* 一番奥に配置 */
   pointer-events: none; /* キャンバスの下にあるボタン等をクリックできるようにする */
 }
