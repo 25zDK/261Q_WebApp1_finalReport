@@ -107,6 +107,18 @@ a {
   text-decoration: none;
 }
 
+.hover-text {
+  color: #333333;               /* 元の文字色（おなじみの#333です） */
+  display: inline-block;        /* アニメーションを滑らかに動かすための下準備 */
+  transition: color 0.25s ease;  /* 0.3秒かけて、滑らか（ease）に色を変化させる魔法 */
+}
+
+/* マウスが乗った時（ホバー時）のスタイル */
+.hover-text:hover {
+  color: var(--theme-color);    /* 事前に設定したテーマカラーに変わる */
+  cursor: pointer;              /* マウスカーソルの形を「指マーク」にして、触れることを伝える */
+}
+
 /* --------------------
         リスト
 -------------------- */
