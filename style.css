@@ -92,6 +92,11 @@ h1, h2, h3 {
   border-bottom: dotted 0.1em var(--theme-color);
 }
 
+h2, h3 {
+  color: var(--theme-color);
+  border-bottom: dotted 0.15em var(--theme-color);
+}
+
 h3 {
   color: var(--theme-color);
   border-bottom: dotted 0.2em var(--theme-color);
